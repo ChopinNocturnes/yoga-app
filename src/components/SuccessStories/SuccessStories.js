@@ -10,6 +10,7 @@ import customerOnePicture from "../../assets/pictures/1.png";
 import customerTwoPicture from "../../assets/pictures/2.png";
 import customerThreePicture from "../../assets/pictures/3.png";
 
+// We generate our success story cards by using customisable success story card component, where we cant set custom picture, name, age, location, rating and text.
 const successStoryCards = (
   <Fragment>
     <SucessStoryCard

@@ -7,13 +7,13 @@ import ProgramDescription from "./ProgramDescription/ProgramDescription";
 
 // YogaProgram component allows to show or not to show ordered plans component, ordered plans number must be given. Also custom headline title can be shown. 
 // This allows to reuse this component at the end of our project.
-const YogaProgram = ({ orderedPlans, mainHeadline, headlineText }) => {
+const YogaProgram = ({ orderedPlans, hasMainHeadline, headlineText }) => {
   return (
     <div className={classes.outerContainer}>
       {orderedPlans && <OrderedPlans orderedPlans={orderedPlans} />}
       <h1
         className={
-          mainHeadline
+          hasMainHeadline
             ? classes.mainHeadlineText
             : classes.secondaryHeadlineText
         }

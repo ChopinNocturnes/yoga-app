@@ -2,9 +2,11 @@ import React from "react";
 
 import classes from "./SucessStoryCard.module.css";
 
+
 const SucessStoryCard = ({ pictureSrc, name, age, location, rating, children }) => {
   let ratingRenderElement = [];
-
+  
+    // For loop logic to generate rating element from full ant empty star icons
     for (let i = 0; i < rating; i++) {
       ratingRenderElement.push(<i key={new Date().getTime() * Math.random()} className={`fas fa-star ${classes.goldenStar}`}></i>)
     }

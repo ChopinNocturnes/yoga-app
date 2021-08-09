@@ -14,14 +14,14 @@ function App() {
       <HeaderContainer />
       <YogaProgram
         orderedPlans={"52 147"}
-        mainHeadline
+        hasMainHeadline={true}
         headlineText={"Get access to your yoga program now!"}
       />
       <SuccessStories />
       <YogaAdvertisiment />
       <FrequentlyAskedQuestions />
       <YogaProgram
-        mainHeadline={false}
+        hasMainHeadline={false}
         headlineText={"Start your yoga program today!"}
       />
     </div>

@@ -6,6 +6,7 @@ import HeaderTitleText from "../Text/HeaderTitleText/HeaderTitleText";
 import FrequentlyAskedQuestion from "./FrequentlyAskedQuestion/FrequentlyAskedQuestion";
 import OrderButton from "../UI/OrderButton/OrderButton";
 
+// This component generates our frequently asked questions by using customisable components, where we can set question and answer texts. Also we use state to set which question is open or not.
 const FrequentlyAskedQuestions = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
@@ -59,7 +60,13 @@ const FrequentlyAskedQuestions = () => {
         The program is also completely free of ads and is constantly being
         updated based on your feedback!
       </FrequentlyAskedQuestion>
-      <OrderButton text={"Get my plan"} secondaryButton onClick={() => {console.log("Order Plan");}} />
+      <OrderButton
+        text={"Get my plan"}
+        secondaryButton
+        onClick={() => {
+          console.log("Order Plan");
+        }}
+      />
     </div>
   );
 };
