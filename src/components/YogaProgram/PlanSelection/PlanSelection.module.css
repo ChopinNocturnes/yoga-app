@@ -3,6 +3,7 @@
   max-width: 352px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .headerTitleText {
@@ -32,6 +33,7 @@
 @media only screen and (max-width: 640px) {
   .outerContainer {
     width: 100%;
+    margin: 0 auto;
   }
   .headerTitleText {
     font-size: 20px;

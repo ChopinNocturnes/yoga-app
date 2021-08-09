@@ -10,6 +10,6 @@
 
 @media only screen and (max-width: 640px) {
   .outerContainer {
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
   }
 }

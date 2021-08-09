@@ -4,6 +4,7 @@
   align-items: center;
   margin: 20px auto;
   max-width: 730px;
+  padding: 16px;
 }
 
 .planFlexContainer {
@@ -37,7 +38,7 @@
 
 @media only screen and (max-width: 640px) {
   .outerContainer {
-    margin: 0 16px 10px 16px;
+    margin: 0 auto 10px auto;
   }
   .planFlexContainer {
     flex-direction: column;
