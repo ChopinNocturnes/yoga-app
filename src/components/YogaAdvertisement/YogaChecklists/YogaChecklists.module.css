@@ -1,0 +1,15 @@
+.outerContainer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checklistContainer {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 640px) {
+  .outerContainer {
+    margin: 0 auto;
+  }
+}

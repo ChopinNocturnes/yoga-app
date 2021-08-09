@@ -1,0 +1,13 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto 0 auto;
+  max-width: 736px;
+}
+
+@media only screen and (max-width: 640px) {
+  .outerContainer {
+    margin: 16px;
+  }
+}

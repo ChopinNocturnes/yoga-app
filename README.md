@@ -1,0 +1,1 @@
+P.S. A little bit strange react task, expected for state, lifecycle methods, hooks, redux, etc. :), nonetheless I tried to make each component reusable as much as needed. 

@@ -1,0 +1,40 @@
+.outerContainer {
+  width: 50%;
+  max-width: 352px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTitleText {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.orangeTextColor {
+  color: #ff9b4e;
+}
+
+.infoText {
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.infoText a {
+  text-decoration: none;
+  color: #C4DBEF;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+  .outerContainer {
+    width: 100%;
+  }
+  .headerTitleText {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

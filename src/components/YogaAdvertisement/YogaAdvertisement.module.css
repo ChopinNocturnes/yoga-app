@@ -1,0 +1,14 @@
+.outerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 0 auto;
+  max-width: 730px;
+}
+
+@media only screen and (max-width: 640px) {
+  .outerContainer {
+    flex-direction: column-reverse;
+    padding: 16px;
+  }
+}
+

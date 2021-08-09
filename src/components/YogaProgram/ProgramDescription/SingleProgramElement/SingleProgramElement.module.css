@@ -1,0 +1,30 @@
+.singleProgramElement {
+  display: flex;
+}
+
+.singleProgramElementInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.headlineText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.regularText {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  color: #A7A7AA;
+}
+
+@media only screen and (max-width: 640px) {
+  .headlineText {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

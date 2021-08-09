@@ -1,0 +1,121 @@
+.planCard {
+    width: 100%;
+    height: 131px;
+    padding: 16px;
+    border: 2px solid #ebebeb;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .planCard:hover {
+    transform: scale(0.98);
+  }
+  
+  .cardBorderHighlighted {
+    border-color: #ff9b4e;
+  }
+  
+  .planCardInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .planCardCheckboxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .planDurationText {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+  }
+  
+  .monthlyPriceText {
+    font-size: 14px;
+    line-height: 31px;
+  }
+  
+  .monthlyPriceText span {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+  }
+  
+  .billInformationText {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .checkboxClicked {
+    background-color: #ff9b4e;
+  }
+  
+  .checkmark {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .planCardDiscountBox {
+    width: 77px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 3px 8px;
+    margin: 0 8px;
+    border-radius: 6px;
+    background-color: #ffe082;
+    font-weight: bold;
+  }
+  
+  .monthPlanContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .highlightedText {
+    color: #ff9b4e;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+  
+  
+  @media only screen and (max-width: 640px) {
+    .planCard {
+      height: 120px;
+    }
+  
+    .planDurationText {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    .monthlyPriceText {
+      line-height: 23px;
+    }
+  
+    .monthlyPriceText span {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  

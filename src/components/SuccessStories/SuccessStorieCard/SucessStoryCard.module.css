@@ -1,0 +1,93 @@
+.successStoryCard {
+  width: 319px;
+  height: 607px;
+  margin: 0px 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: 0px 16px 32px rgba(57, 53, 60, 0.08);
+  border-radius: 16px;
+}
+
+.nameAgeText {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.locationText {
+  font-size: 12px;
+  line-height: 18px;
+  color: #a7a7ab;
+}
+
+.ratingContainer {
+  margin: 15px 0 10px 0;
+}
+
+.goldenStar {
+  font-size: 20px;
+  color: #ffcc80;
+}
+
+.blankStar {
+  font-size: 20px;
+}
+
+.userImage {
+  width: 160px;
+  height: 160px;
+}
+
+.reviewText {
+  font-size: 16px;
+  line-height: 24px;
+  overflow-y: scroll;
+  scrollbar-width: none; 
+}
+
+@media only screen and (max-width: 640px) {
+  .successStoryCard {
+    user-select: none;
+    margin: 16px;
+    width: 280px;
+    height: 400px;
+  }
+
+  .nameAgeText {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .locationText {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  
+  .ratingContainer {
+    margin: 10px 0;
+  }
+  
+  .goldenStar {
+    font-size: 16px;
+  }
+  
+  .blankStar {
+    font-size: 16px;
+  }
+  
+  .userImage {
+    width: 130px;
+    height: 130px;
+    margin: 10px 0;
+  }
+  
+  .reviewText {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 0px;
+}

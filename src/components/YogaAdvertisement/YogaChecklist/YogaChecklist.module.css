@@ -1,0 +1,16 @@
+.outerContainer {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.checklistIcon {
+  font-size: 20px;
+  color: #91b83d;
+}
+
+.checklistText {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 0 15px;
+  color: #424242;
+}

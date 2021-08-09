@@ -1,0 +1,72 @@
+.outerContainer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appPreviewContainer {
+  background-color: #fff;
+  height: 350px;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0 8px;
+}
+
+.upperTriangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 240px 350px 0 0;
+  border-color: #fff transparent transparent transparent;
+  z-index: 0;
+}
+
+.bottomTriangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 240px 350px;
+  border-color: transparent transparent #fff transparent;
+  z-index: 0;
+}
+
+.appImagesContainer {
+  margin-top: 30px;
+  position: relative;
+  height: 100%;
+}
+
+.yogaAppPreview1 {
+  z-index: 1;
+  position: absolute;
+  width: 158px;
+  height: 326px;
+  top: 0;
+  left: 0;
+}
+
+.yogaAppPreview2 {
+  z-index: 1;
+  position: absolute;
+  width: 158px;
+  height: 326px;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .outerContainer {
+    margin: 30px auto 0 auto;
+  }
+  .appPreviewContainer {
+    background-color: #ebebeb;
+    height: 400px;
+  }
+}

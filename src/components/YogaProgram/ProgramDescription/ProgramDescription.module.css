@@ -1,0 +1,15 @@
+.outerContainer {
+  width: 350px;
+}
+
+.programDescriptionElementsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 640px) {
+  .outerContainer {
+    margin-top: 30px;
+  }
+}
