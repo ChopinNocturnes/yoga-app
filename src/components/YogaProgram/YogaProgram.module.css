@@ -60,6 +60,15 @@
   }
 }
 
+@media only screen and (max-width: 640px) {
+  .secondaryHeadlineText {
+    text-align: center;
+  }
+  .mainHeadlineText {
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .secondaryHeadlineText {
     text-align: start;
