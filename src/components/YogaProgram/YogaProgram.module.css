@@ -14,19 +14,23 @@
 }
 
 .mainHeadlineText {
-  margin: 8px 0;
+  margin: 8px auto;
   font-size: 38px;
   font-weight: 800;
   line-height: 36px;
   letter-spacing: -2px;
   word-spacing: -1px;
+  text-align: center;
 }
 
 .secondaryHeadlineText {
+  width: 100%;
   margin: 8px 0;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
+  text-align: center;
+  letter-spacing: -1px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -47,9 +51,11 @@
   .mainHeadlineText {
     font-size: 28px;
     letter-spacing: -1px;
+    text-align: start;
   }
   .secondaryHeadlineText {
     font-size: 24px;
     line-height: 32px;
+    text-align: start;
   }
 }
