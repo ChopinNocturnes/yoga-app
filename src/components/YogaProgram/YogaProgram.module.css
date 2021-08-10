@@ -42,7 +42,7 @@
 @media only screen and (max-width: 640px) {
   .outerContainer {
     margin: 0 auto 10px auto;
-    padding: 16px;
+    padding: 0 16px;
   }
   .planFlexContainer {
     flex-direction: column;
@@ -56,6 +56,12 @@
   .secondaryHeadlineText {
     font-size: 24px;
     line-height: 32px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .secondaryHeadlineText {
     text-align: start;
   }
 }

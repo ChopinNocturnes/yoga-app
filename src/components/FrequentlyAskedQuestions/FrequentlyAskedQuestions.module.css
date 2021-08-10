@@ -8,6 +8,7 @@
 
 @media only screen and (max-width: 640px) {
   .outerContainer {
-    margin: 16px;
+    margin: 20px auto 0 auto;
+    padding: 0 16px;
   }
 }
